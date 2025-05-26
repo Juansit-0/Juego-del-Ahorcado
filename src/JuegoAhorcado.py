@@ -31,7 +31,7 @@ class JuegoAhorcado:
             Palabra("patron"),
         ]
         
-        # Atributos del estado del juego
+        # Atributos del estado del juego 
         self.palabra_actual: Palabra = None
         self.intentos_disponibles: int = self.MAX_INTENTOS
         self.jugadas: List[Letra] = []

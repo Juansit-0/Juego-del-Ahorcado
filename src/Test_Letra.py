@@ -34,7 +34,7 @@ def test_es_igual2(letra_p):
 # Test 3: Comparar 'a' con 'A' y 'a'
 def test_es_igual3(letra_a):
     assert letra_a.es_igual(Letra('A')), "Las letras deben ser iguales"
-    assert letra_a.es_igual(Letra('a')), "Las letras deben ser iguales"
+    assert letra_a.es_igual(Letra('a')), "Las letras deben ser iguales" 
 
 # Test 4: Comparar 'Z' con 'z' y 'Z'
 def test_es_igual4(letra_z):

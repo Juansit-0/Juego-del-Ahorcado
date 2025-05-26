@@ -3,7 +3,7 @@ from Letra import Letra
 
 class Palabra:
     """
-    Clase para representar una palabra del juego.
+    Clase para representar una palabra del juego. 
     """
 
     def __init__(self, p_palabra: str):

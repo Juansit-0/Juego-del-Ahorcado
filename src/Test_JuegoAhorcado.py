@@ -14,7 +14,7 @@ def test_inicializacion(juego):
     assert juego.dar_intentos_disponibles() == JuegoAhorcado.MAX_INTENTOS, \
         f"El número de intentos debe ser {JuegoAhorcado.MAX_INTENTOS}"
     assert juego.dar_estado() == Estado.NO_INICIADO, \
-        "El estado del juego debe ser NO_INICIADO"
+        "El estado del juego debe ser NO_INICIADO" 
 
 def test_iniciar_juego(juego):
     juego.iniciar_juego()

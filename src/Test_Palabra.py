@@ -26,7 +26,7 @@ def test_palabra(escenario_palabra):
         jugadas.append(letra_intento)
         assert palabra.esta_letra(letra_intento), "La letra sí está en la palabra"
 
-    # Probar si la palabra está completa con las jugadas realizadas
+    # Probar si la palabra está completa con las jugadas realizadas 
     assert palabra.esta_completa(jugadas), "La palabra ya está completa"
 
     

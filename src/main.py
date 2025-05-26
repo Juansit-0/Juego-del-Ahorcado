@@ -14,7 +14,7 @@ def mostrar_bienvenida():
 def mostrar_ahorcado(intentos_restantes):
     """Muestra el dibujo del ahorcado según los intentos restantes."""
     dibujos = [
-        # 0 intentos - ahorcado completo
+        # 0 intentos - ahorcado completo 
         """
    +---+
    |   |
