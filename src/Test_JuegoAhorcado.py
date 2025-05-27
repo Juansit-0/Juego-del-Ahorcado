@@ -1,3 +1,8 @@
+__author__ = "Juan Camilo López Díaz"
+__version__ = "1.0.0"
+__license__ = "GPL"
+__email__ = "juanca110720@gmail.com"
+
 import pytest
 from JuegoAhorcado import JuegoAhorcado, Estado
 from Letra import Letra

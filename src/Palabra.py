@@ -1,3 +1,8 @@
+__author__ = "Juan Camilo López Díaz"
+__version__ = "1.0.0"
+__license__ = "GPL"
+__email__ = "juanca110720@gmail.com"
+
 from typing import List
 from Letra import Letra
 
